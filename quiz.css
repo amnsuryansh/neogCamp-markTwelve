@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #7c3aed;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.nav-name{
+    text-align:left;
+    font-size:xx-large;
+}
+.nav-list{
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.inline-list{
+    list-style: none;
+    display: inline;
+    padding-right:0.5rem;
+}
+
+button{
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+}
+
+.question-container {
+    width: 85%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 1rem 0;
+}
+
+.question-container p {
+    margin: 1rem 0;
+}
